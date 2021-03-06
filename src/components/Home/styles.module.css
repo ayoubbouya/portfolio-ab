@@ -1,0 +1,66 @@
+.homeContainer {
+  margin: 0 13%;
+}
+.sectionHome {
+  margin-top: 4rem;
+}
+.profile {
+  width: 300px;
+  border-radius: 50%;
+  margin: auto;
+  box-shadow: 5px 5px 12px 2px rgb(189, 187, 187);
+}
+.headSection {
+  width: 700px;
+}
+.sectionHome {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.heading1 {
+  font-size: 44px;
+  font-weight: 800;
+  line-height: 60px;
+}
+.paragraph {
+  font-size: 16px;
+  line-height: 28px;
+  margin: 1rem 0;
+}
+.btn {
+  width: 160px;
+  height: 40px;
+  color: black;
+  margin-top: 0.6rem;
+  border: 0.5px solid black;
+  background-color: black;
+  color: white;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-bottom: 1.5rem;
+}
+.btn:hover {
+  background-color: white;
+  color: black;
+  transition: all 0.4s ease-in-out;
+}
+.skillsHeading {
+  margin: 2rem 0;
+  margin-bottom: 1rem;
+}
+.skill {
+  width: 45px;
+  margin: 0 0.5rem;
+}
+
+.js,
+.redux {
+  width: 37px;
+  margin: 0 0.5rem;
+  margin-bottom: 5px;
+}
+.figma {
+  width: 30px;
+  margin: 0 1rem;
+}
