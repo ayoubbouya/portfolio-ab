@@ -1,0 +1,59 @@
+.sectionProjects {
+  margin: 0 13.5%;
+}
+.heading1 {
+  text-align: center;
+  margin: 2rem 0;
+}
+.article {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 4rem 0;
+}
+.website {
+  width: 100%;
+  padding: 1rem;
+}
+.part2 {
+  width: 40%;
+  text-align: center;
+  line-height: 40px;
+}
+/* background color for screenshot */
+.part1 {
+  width: 50%;
+  border-radius: 5px;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 3s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+/* span for languages */
+.tools {
+  margin: 1rem 0;
+}
+.span {
+  margin: 5px;
+  padding: 5px 10px;
+  border: 1px solid black;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.icon {
+  display: inline-block;
+  margin: 0 10px;
+  font-size: 2rem;
+  cursor: pointer;
+}

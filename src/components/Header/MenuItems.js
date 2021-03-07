@@ -1,11 +1,11 @@
 export const MenuItems = [
   {
     title: "Home",
-    url: "#",
+    url: "/",
   },
   {
     title: "Projects",
-    url: "#",
+    url: "/projects",
   },
   {
     title: "Contact Us",

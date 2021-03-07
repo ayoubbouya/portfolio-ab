@@ -1,12 +1,17 @@
 .logoPng {
   margin-top: 10px;
   width: 60px;
+  transition: transform 0.8s ease-in-out;
+}
+.logoPng:hover {
+  transform: rotate(360deg);
+  transform: rotate(360deg);
 }
 .nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 85px;
+  height: 100px;
   margin: 0 13%;
 }
 .lists {
@@ -15,9 +20,22 @@
 }
 .li {
   margin: 0px 30px;
+  font-weight: 800;
   color: black;
   font-size: 18px;
   text-decoration: none;
+  display: inline-block;
+}
+.li::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #000;
+  transition: width 0.3s;
+}
+.li:hover::after {
+  width: 100%;
 }
 /* navbar column */
 .menu_icon {
