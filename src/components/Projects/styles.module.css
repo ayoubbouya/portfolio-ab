@@ -4,6 +4,7 @@
 .heading1 {
   text-align: center;
   margin: 2rem 0;
+  font-size: 36px;
 }
 .article {
   display: flex;
@@ -57,4 +58,7 @@
   font-size: 2rem;
   cursor: pointer;
   color: black;
+}
+.icon:hover {
+  transform: scale(1.2);
 }

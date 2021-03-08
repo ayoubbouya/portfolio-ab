@@ -117,7 +117,7 @@ function Projects() {
         <article className={styles.article}>
           <div className={styles.part2}>
             <h2>TODOLIST APP</h2>
-            <p>Responsive website - Affordable professional Web Design</p>
+            <p>Todo List App with React Js</p>
             <div className={styles.tools}>
               <span className={styles.span}>JSX</span>
               <span className={styles.span}>CSS3</span>
@@ -186,8 +186,11 @@ function Projects() {
         </article>
         <article className={styles.article}>
           <div className={styles.part2}>
-            <h2>Bose Website</h2>
-            <p>Responsive website - Affordable professional Web Design</p>
+            <h2>DSL Website</h2>
+            <p>
+              Responsive website - Making the most of the ever-growing
+              Information Technology
+            </p>
             <div className={styles.tools}>
               <span className={styles.span}>jsx</span>
               <span className={styles.span}>Reactjs</span>
@@ -216,7 +219,7 @@ function Projects() {
             <img
               className={styles.website}
               src={dslwebsite}
-              alt="web site design responsive"
+              alt="Information Technology"
             />
           </div>
         </article>
