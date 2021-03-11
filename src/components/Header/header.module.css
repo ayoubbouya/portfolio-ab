@@ -41,33 +41,35 @@
 .menu_icon {
   color: black;
   justify-content: center;
-  font-size: 22px;
+  font-size: 30px;
   display: none;
   cursor: pointer;
 }
 .listsColumn {
   list-style: none;
-  background: linear-gradient(
-    90deg,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(9, 9, 121, 1) 35%,
-    rgba(0, 212, 255, 1) 100%
-  );
-  justify-content: space-around;
-  flex-direction: column;
-  display: flex;
-  align-items: center;
+  background: white;
+  margin-top: 80px;
+  height: 12rem;
+  background-color: black;
+  z-index: 1;
+  padding: 1rem;
+  position: absolute;
+  top: 12px;
+  right: 0;
+  text-align: center;
   width: 100%;
-  height: 300px;
-  margin-top: 450px;
-}
-.logoHide {
-  display: block;
+  transition: all 0.3s ease-in;
+  overflow-y: hidden;
+  left: 0px;
 }
 .liColumn {
   color: white;
   text-decoration: none;
   font-size: 20px;
+  margin: 5px 0;
+  display: block;
+  width: 100%;
+  margin: 2rem 0;
 }
 .iconsFa {
   cursor: pointer;

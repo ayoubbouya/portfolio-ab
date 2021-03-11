@@ -7,8 +7,4 @@ export const MenuItems = [
     title: "Projects",
     url: "/projects",
   },
-  {
-    title: "Contact Us",
-    url: "#",
-  },
 ];
