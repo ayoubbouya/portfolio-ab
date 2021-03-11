@@ -6,7 +6,8 @@
   margin: 2rem 0;
   font-size: 36px;
 }
-.article {
+.article,
+.article1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -20,6 +21,11 @@
   width: 40%;
   text-align: center;
   line-height: 40px;
+}
+/* copyright */
+.heading5 {
+  margin: 1rem 0;
+  text-align: center;
 }
 /* background color for screenshot */
 .part1 {
@@ -44,10 +50,13 @@
 /* span for languages */
 .tools {
   margin: 1rem 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 .span {
-  margin: 5px;
-  padding: 5px 10px;
+  padding: 5px;
+  margin: 0 5px;
   border: 1px solid black;
   border-radius: 4px;
   cursor: pointer;
@@ -61,4 +70,18 @@
 }
 .icon:hover {
   transform: scale(1.2);
+}
+
+@media (max-width: 1100px) {
+  .article {
+    flex-direction: column;
+  }
+  .article1 {
+    flex-direction: column-reverse;
+  }
+  .part1,
+  .part2 {
+    width: 100%;
+    padding: 1rem 0;
+  }
 }

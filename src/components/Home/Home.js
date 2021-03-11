@@ -53,7 +53,13 @@ function Home() {
           </div>
           <h1 className={styles.heading2}>Contacts</h1>
           <div className={styles.pictureContacts}>
-            <img className={styles.contact} src={linkedin} alt="linkedin" />
+            <a
+              href="https://github.com/ayoubbouya/BouyaWebDesign"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img className={styles.contact} src={linkedin} alt="linkedin" />
+            </a>
             <img className={styles.contact} src={github} alt="github" />
             <img className={styles.mail} src={mail} alt="mail" />
           </div>

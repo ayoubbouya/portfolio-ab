@@ -11,7 +11,9 @@ function Projects() {
   return (
     <div>
       <section className={styles.sectionProjects}>
+        {/* title */}
         <h1 className={styles.heading1}>Projects</h1>
+        {/* article 1 */}
         <article className={styles.article}>
           <div className={styles.part1}>
             <img
@@ -42,18 +44,19 @@ function Projects() {
               rel="noreferrer"
               className={styles.icon}
             >
-              <i class="fas fa-external-link-alt"></i>
+              <i className="fas fa-external-link-alt"></i>
             </a>
           </div>
         </article>
-        <article className={styles.article}>
+        {/* article 2 */}
+        <article className={styles.article1}>
           <div className={styles.part2}>
             <h2>Gym Web Design</h2>
             <p>Gym - Website Simple Responsive</p>
             <div className={styles.tools}>
-              <span className={styles.span}>HTML5</span>
-              <span className={styles.span}>CSS3</span>
-              <span className={styles.span}>Responsive</span>
+              <div className={styles.span}>HTML5</div>
+              <div className={styles.span}>CSS3</div>
+              <div className={styles.span}>Responsive</div>
             </div>
             <a
               href="https://github.com/ayoubbouya/gym"
@@ -69,7 +72,7 @@ function Projects() {
               rel="noreferrer"
               className={styles.icon}
             >
-              <i class="fas fa-external-link-alt"></i>
+              <i className="fas fa-external-link-alt"></i>
             </a>
           </div>
           <div className={styles.part1}>
@@ -80,6 +83,7 @@ function Projects() {
             />
           </div>
         </article>
+        {/* article 3 */}
         <article className={styles.article}>
           <div className={styles.part1}>
             <img
@@ -92,9 +96,9 @@ function Projects() {
             <h2>Todo List App</h2>
             <p>Create a To-Do List Application with HTML, CSS, and Pure JS</p>
             <div className={styles.tools}>
-              <span className={styles.span}>HTML5</span>
-              <span className={styles.span}>CSS3</span>
-              <span className={styles.span}>Javascript</span>
+              <div className={styles.span}>HTML5</div>
+              <div className={styles.span}>CSS3</div>
+              <div className={styles.span}>Javascript</div>
             </div>
             <a
               href="https://github.com/ayoubbouya/TodoList/"
@@ -110,18 +114,19 @@ function Projects() {
               rel="noreferrer"
               className={styles.icon}
             >
-              <i class="fas fa-external-link-alt"></i>
+              <i className="fas fa-external-link-alt"></i>
             </a>
           </div>
         </article>
-        <article className={styles.article}>
+        {/* article 4 */}
+        <article className={styles.article1}>
           <div className={styles.part2}>
             <h2>TODOLIST APP</h2>
             <p>Todo List App with React Js</p>
             <div className={styles.tools}>
-              <span className={styles.span}>JSX</span>
-              <span className={styles.span}>CSS3</span>
-              <span className={styles.span}>ReactJs</span>
+              <div className={styles.span}>JSX</div>
+              <div className={styles.span}>CSS3</div>
+              <div className={styles.span}>ReactJs</div>
             </div>
             <a
               href="https://github.com/ayoubbouya/TodoListReactJs/"
@@ -137,7 +142,7 @@ function Projects() {
               rel="noreferrer"
               className={styles.icon}
             >
-              <i class="fas fa-external-link-alt"></i>
+              <i className="fas fa-external-link-alt"></i>
             </a>
           </div>
           <div className={styles.part1}>
@@ -148,6 +153,7 @@ function Projects() {
             />
           </div>
         </article>
+        {/* article 5 */}
         <article className={styles.article}>
           <div className={styles.part1}>
             <img
@@ -160,11 +166,11 @@ function Projects() {
             <h2>Bose Website</h2>
             <p>Responsive website - Affordable professional Web Design</p>
             <div className={styles.tools}>
-              <span className={styles.span}>jsx</span>
-              <span className={styles.span}>Reactjs</span>
-              <span className={styles.span}>router</span>
-              <span className={styles.span}>Slick-Slider</span>
-              <span className={styles.span}>Bootstrap</span>
+              <div className={styles.span}>jsx</div>
+              <div className={styles.span}>Reactjs</div>
+              <div className={styles.span}>router</div>
+              <div className={styles.span}>SlickSlider</div>
+              <div className={styles.span}>Bootstrap</div>
             </div>
             <a
               href="https://github.com/ayoubbouya/bose-web/"
@@ -180,11 +186,12 @@ function Projects() {
               rel="noreferrer"
               className={styles.icon}
             >
-              <i class="fas fa-external-link-alt"></i>
+              <i className="fas fa-external-link-alt"></i>
             </a>
           </div>
         </article>
-        <article className={styles.article}>
+        {/* article 6 */}
+        <article className={styles.article1}>
           <div className={styles.part2}>
             <h2>DSL Website</h2>
             <p>
@@ -192,11 +199,11 @@ function Projects() {
               Information Technology
             </p>
             <div className={styles.tools}>
-              <span className={styles.span}>jsx</span>
-              <span className={styles.span}>Reactjs</span>
-              <span className={styles.span}>router</span>
-              <span className={styles.span}>Slick</span>
-              <span className={styles.span}>Bootstrap</span>
+              <div className={styles.span}>jsx</div>
+              <div className={styles.span}>Reactjs</div>
+              <div className={styles.span}>router</div>
+              <div className={styles.span}>Slick</div>
+              <div className={styles.span}>Bootstrap</div>
             </div>
             <a
               href="https://github.com/ayoubbouya/website-dsl/"
@@ -212,7 +219,7 @@ function Projects() {
               rel="noreferrer"
               className={styles.icon}
             >
-              <i class="fas fa-external-link-alt"></i>
+              <i className="fas fa-external-link-alt"></i>
             </a>
           </div>
           <div className={styles.part1}>
@@ -224,6 +231,9 @@ function Projects() {
           </div>
         </article>
       </section>
+      <h5 className={styles.heading5}>
+        © 2021 | Developed with ❤ by Ayoub BOUYA{" "}
+      </h5>
     </div>
   );
 }
