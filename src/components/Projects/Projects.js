@@ -6,7 +6,7 @@ import todolist from "./todolist.gif";
 import todolistjs from "./todolistjs.gif";
 import bose from "./bose.gif";
 import dslwebsite from "./dslwebsite.gif";
-import OneProject from "./OneProject";
+import OneProject from "./OneProject"; 
 
 function Projects() {
   return (
@@ -67,19 +67,19 @@ function Projects() {
       <OneProject
         image={bose}
         headingH2="Bose Website"
-        paragraph1="Todo List App with React Js"
+        paragraph1="QuietComfort 35 wireless headphones II"
         tool1="React Js"
         tool3="Router"
         tool4="Bootstrap"
         tool5="Slick"
-        github="https://github.com/ayoubbouya/TodoListReactJs"
-        preview="https://todolistayoubbouya.netlify.app/"
+        github="https://github.com/ayoubbouya/bose-web"
+        preview="https://boseweb.netlify.app/"
       />
       <article className={styles.article1}>
         <OneProject
           image={dslwebsite}
-          headingH2="Bose Website"
-          paragraph1="Todo List App with React Js"
+          headingH2="DSL Website"
+          paragraph1="Information Technology"
           tool1="React Js"
           tool3="Router"
           tool4="Bootstrap"
