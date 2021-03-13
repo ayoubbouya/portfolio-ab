@@ -6,19 +6,21 @@
   margin: 2rem 0;
   font-size: 36px;
 }
-.article,
-.article1 {
+.article {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 4rem 0;
+}
+.article1 {
+  direction: rtl;
 }
 .website {
   width: 100%;
   padding: 2rem;
 }
 .part2 {
-  width: 40%;
+  width: 50%;
   text-align: center;
   line-height: 40px;
 }
@@ -58,9 +60,15 @@
   padding: 5px;
   margin: 0 5px;
   border: 1px solid black;
-  border-radius: 4px;
-  cursor: pointer;
+  border-radius: 3px;
 }
+.span:hover {
+  background-color: #000000;
+  color: white;
+  transform: scale(0.9);
+  transition-duration: 0.3s;
+}
+
 .icon {
   display: inline-block;
   margin: 0 10px;
@@ -69,7 +77,9 @@
   color: black;
 }
 .icon:hover {
-  transform: scale(1.2);
+  transition-duration: 0.4s;
+  transform: scale(1.3);
+  color: #3f3f3f;
 }
 
 @media (max-width: 1100px) {
