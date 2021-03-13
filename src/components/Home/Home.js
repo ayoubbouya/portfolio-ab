@@ -14,6 +14,7 @@ import figma from "./figma.png";
 import linkedin from "./linkedin.png";
 import github from "./github.png";
 import mail from "./mail.png";
+import Pdf from "./AyoubsResume.pdf";
 
 function Home() {
   return (
@@ -36,7 +37,15 @@ function Home() {
             am a fast learner, responsible, ready for hard tasks.
           </p>
           <p className={styles.paragraph}></p>
-          <button className={styles.btn}>Download Resume</button>
+          <button
+            className={styles.btn}
+            trailingIcon="picture_as_pdf"
+            label="Resume"
+          >
+            <a href={Pdf} without rel="noopener noreferrer" target="_blank">
+              Download Resume
+            </a>
+          </button>
 
           <h1 className={styles.heading2}>Skills</h1>
           <div className={styles.pictureSkills}>
