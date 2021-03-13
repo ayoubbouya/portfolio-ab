@@ -74,7 +74,7 @@ function Home() {
               target="_blank"
               rel="noreferrer"
             >
-              <img className={styles.contact} src={github} alt="github" />{" "}
+              <img className={styles.contact} src={github} alt="github" />
             </a>
             <a href="mailto:bouya.ayoub1@gmail.com?Subject=Some%20subject">
               <img className={styles.mail} src={mail} alt="mail" />
