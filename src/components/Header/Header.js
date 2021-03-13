@@ -13,7 +13,9 @@ export default class header extends Component {
         <header className={styles.header}>
           <nav className={styles.nav}>
             <h1 className={this.state.onCliked ? styles.logo : styles.logoHide}>
-              <img className={styles.logoPng} src={logo} alt="logo" />
+              <a href="/">
+                <img className={styles.logoPng} src={logo} alt="logo" />
+              </a>
             </h1>
             <ul
               className={

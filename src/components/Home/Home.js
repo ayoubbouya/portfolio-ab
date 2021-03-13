@@ -63,14 +63,22 @@ function Home() {
           <h1 className={styles.heading2}>Contacts</h1>
           <div className={styles.pictureContacts}>
             <a
-              href="https://github.com/ayoubbouya/BouyaWebDesign"
+              href="https://www.linkedin.com/in/ayoubbouya//"
               target="_blank"
               rel="noreferrer"
             >
               <img className={styles.contact} src={linkedin} alt="linkedin" />
             </a>
-            <img className={styles.contact} src={github} alt="github" />
-            <img className={styles.mail} src={mail} alt="mail" />
+            <a
+              href="https://github.com/ayoubbouya/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img className={styles.contact} src={github} alt="github" />{" "}
+            </a>
+            <a href="mailto:bouya.ayoub1@gmail.com?Subject=Some%20subject">
+              <img className={styles.mail} src={mail} alt="mail" />
+            </a>
           </div>
           <h5 className={styles.heading5}>
             © 2021 | Developed with ❤ by Ayoub BOUYA{" "}
