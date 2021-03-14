@@ -12,7 +12,7 @@ function Projects() {
   return (
     <div>
       {/* title */}
-      <h1 className={styles.heading1}>Projects</h1>
+      <h1 className={styles.heading1}>Personal projects</h1>
       {/* article 1 */}
 
       <OneProject
