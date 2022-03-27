@@ -37,15 +37,15 @@ function Home() {
             am a fast learner, responsible, ready for hard tasks.
           </p>
           <p className={styles.paragraph}></p>
-          <button
-            className={styles.btn}
-            trailingIcon="picture_as_pdf_"
-            label="Resume"
-          >
-            <a href={Pdf} without rel="noopener noreferrer" target="_blank">
-              Download Resume
-            </a>
-          </button>
+//           <button
+//             className={styles.btn}
+//             trailingIcon="picture_as_pdf"
+//             label="Resume"
+//           >
+//             <a href={Pdf} without rel="noopener noreferrer" target="_blank">
+//               Download Resume
+//             </a>
+//           </button>
 
           <h1 className={styles.heading2}>Skills</h1>
           <div className={styles.pictureSkills}>
