@@ -39,7 +39,7 @@ function Home() {
           <p className={styles.paragraph}></p>
           <button
             className={styles.btn}
-            trailingIcon="picture_as_pdf"
+            trailingIcon="picture_as_pdf_"
             label="Resume"
           >
             <a href={Pdf} without rel="noopener noreferrer" target="_blank">
