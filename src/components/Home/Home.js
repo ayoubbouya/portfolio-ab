@@ -81,7 +81,7 @@ function Home() {
             </a>
           </div>
           <h5 className={styles.heading5}>
-            © 2021 | Developed with ❤ by Ayoub BOUYA{" "}
+            © 2023 | Developed with ❤ by Ayoub BOUYA{" "}
           </h5>
         </div>
       </section>
