@@ -47,7 +47,7 @@ function Home() {
 //             </a>
 //           </button>
 
-          <h1 className={styles.heading2}>Skills</h1>
+           <h1 className={styles.heading2}>Skills</h1>
           <div className={styles.pictureSkills}>
             <img className={styles.skill} src={html} alt="HTML" />
             <img className={styles.skill} src={css} alt="CSS" />
